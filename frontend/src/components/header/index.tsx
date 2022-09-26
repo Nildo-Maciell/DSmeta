@@ -9,7 +9,7 @@ function Header() {
                 <h1>DSMeta</h1>
                 <p>
                     Desenvolvido por
-                    <a href="https://www.instagram.com/nildo_maciell/"> @NildoMaciell</a>
+                    <a href="https://www.instagram.com/nildo_maciell/"> @nildo_maciell</a>
                 </p>
             </div>
         </header>
