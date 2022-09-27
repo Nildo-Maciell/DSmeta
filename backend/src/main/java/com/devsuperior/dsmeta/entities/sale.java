@@ -10,18 +10,18 @@ import javax.persistence.Table;
 
 @Table(name = "tb_sales")
 @Entity
-public class sale {
+public class Sale {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
+	private Long id;
 	private String sellerName;
 	private Integer visited;
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
 	
-	public sale () {
+	public Sale () {
 	}
 
 	public long getId() {
